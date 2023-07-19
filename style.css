@@ -166,6 +166,7 @@ li>a , .nav-button{
     color: #534C64;
     font-size:1.125rem ;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 .gamer-button{
     width: 156px;
@@ -184,6 +185,59 @@ li>a , .nav-button{
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* This is Video Section */
+
+
+
+.video-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: #0B0223;
+
+}
+
+.funny-span{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(155deg, rgba(249,72,178,1) 2%, rgba(181,88,241,1) 58%);
+
+}
+
+.video-description{
+    color: #534C64;
+    font-size:1.125rem ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.video-contain{
+    width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+img:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+    
+}
+
+figcaption{
+    font-size: 1rem;
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+
 
 
 
@@ -252,6 +306,39 @@ li>a , .nav-button{
         
     }
 
+    /* This is video section */
+
+
+
+    .video-title{
+        text-align: center;
+        
+    
+    }
+    
+    .funny-span{
+        color: transparent;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(155deg, rgba(249,72,178,1) 2%, rgba(181,88,241,1) 58%);
+    
+    }
+    
+    .video-description{
+        
+        text-align: center;
+    
+    }
+    
+
+    .video-contain{
+       display: grid;
+       grid-template-columns: repeat(1,400px);
+       gap: 15px;
+       justify-content: center;
+       width: 100%;
+       
+    }
+
 
 
     
@@ -316,7 +403,19 @@ li>a , .nav-button{
     
 }
 
+/* This video section */
+.video-contain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin: 20px;
+    width: 100%;
+    
+ }
 
+.video-contain>div{
+    width: 320px;
+}
 
 
 
