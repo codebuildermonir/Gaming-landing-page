@@ -113,14 +113,14 @@ li>a , .nav-button{
     height: 24px;
 }
 
-.sing-button, .go-button{
+.sing-button, .go-button {
     width: 156px;
     height: 65px;
    border-radius:40px;
    background-color: #FF42A5;
    color: white;
    border: none;
-   font-size: 20px;
+   font-size: 1.25rem;
    margin-top: 30px;
 }
 .go-button{
@@ -128,7 +128,62 @@ li>a , .nav-button{
     margin-left: 15px;
 }
 
+/* Gamer Section */
 
+.gamer-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #fae2ee2c;
+   
+
+}
+
+.gamer-image {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.gamer-contain{
+    width: 40%;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(155deg, rgba(249,72,178,1) 2%, rgba(181,88,241,1) 58%);
+
+}
+
+.gamer-descrition, .gamer-purpose{
+    color: #534C64;
+    font-size:1.125rem ;
+    font-family: 'Work Sans', sans-serif;
+}
+.gamer-button{
+    width: 156px;
+    height: 55px;
+   border-radius:40px;
+   background-color: #FF42A5;
+   color: white;
+   border: none;
+   font-size: 1rem;
+
+}
+
+.gamer-comment{
+    color: #534C64;
+    font-size:2rem; 
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
 
 
 
@@ -141,7 +196,10 @@ li>a , .nav-button{
 
 
 /* Responsive for small device */
+
 @media screen and (max-width:576px) {
+
+    /* nave section */
     .nav-contain{
        
     display: flex;
@@ -154,6 +212,7 @@ li>a , .nav-button{
        
         
     }
+    /* Hero section */
 
     .hero-section{
        
@@ -167,19 +226,54 @@ li>a , .nav-button{
     .hero-title{
         margin-top: 20px;
     }
+
+    /* gamer Section */
     
+    .gamer-section{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #fae2ee2c;
+        flex-direction: column;
+       
     
+    }
+    .gamer-image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gamer-contain{
+        width: 100%;
+        text-align: center;
+       
+        
+        
+    }
+
+
 
     
 }
 
+
+
+
+
+
+
+
 /* Responsive for medium device */
+
 @media screen and (min-width:577px) and (max-width:768px) {
+    /* nav Section */
     .nav-contain{
        
         display: flex;
         flex-direction: column;
     }
+    /* Hero Section */
 
     .hero-section{
        
@@ -194,6 +288,37 @@ li>a , .nav-button{
     .hero-title{
         margin-top: 20px;
     }
+
+    /* Gamer Section */
+
+    .gamer-section{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #fae2ee2c;
+        flex-direction: column;
+       
+    
+    }
+
+    
+.gamer-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gamer-contain{
+    width: 100%;
+    text-align: center;
+   
+    
+    
+}
+
+
+
+
 
     
 }
