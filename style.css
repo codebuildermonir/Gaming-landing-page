@@ -273,7 +273,7 @@ figcaption{
 
 
 .download-contain{
-    border: #FF42A5 solid 2px;
+    
     width: 30%;
     height: 450px;
     display: flex;
@@ -282,7 +282,7 @@ figcaption{
     justify-content:center;
 }
 .download-image{
-    border: #FF42A5 solid 2px;
+   
     width: 45%;
     height: 450px;
     display: flex;
@@ -298,7 +298,117 @@ figcaption{
     width: 180px;
     height: 200px;
 }
+/* This is feature  section */
 
+
+.feature-section{
+    background-color: #fae2ee2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.feature-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0px;
+
+    
+    
+    
+}
+.feature-item2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.feature-item2>div{
+    display: flex;
+    box-shadow: #edebf3 2px 2px 2px 2px;
+    border-radius: 15px;
+}
+
+  .feature-item2>div:hover{
+    border: #FF42A5 2px solid;
+
+}
+
+.feature-item>div:hover{
+    border: #FF42A5 2px solid;
+
+}
+
+.feature-item>div{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: #edebf3 2px 2px 2px 2px;
+}
+
+.feature-image,.feature-image2{
+    width: 40px;
+}
+
+/* Footer Section */
+.footer-scetion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #0B0223;
+
+}
+
+.footer-logo,.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+li{
+    font-size: 1.225rem;
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-title{
+    color: white;
+}
+
+
+.footer-icon{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.footer-policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 15px;
+
+}
+
+.footer-policy>li,h5{
+    font-size: 1rem;
+    color: #534C64;
+}
 
 
 
@@ -423,6 +533,28 @@ figcaption{
         margin-left: -50px;
         
     }
+
+
+    .feature-item{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        justify-content: center;
+       
+        
+        
+        
+    }
+
+    .feature-item2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    
 
 
 
